@@ -1,0 +1,70 @@
+整理自WebGIS课堂PPT3
+1.HTML
+	- Hyper Text Markup Language  
+	- 采用一套markup tag来描述网页
+	- 页面结构：
+		-标签
+			 -标签属性，属性值用引号括起来
+		-头部<head></head> 页面描述信息
+			 -<title></title>
+			 -<link> css样式文件的引用
+			 -<script></script>
+			 -<meta> 定义html页面的一些属性
+			 	 -charset
+				 -author
+				 -keywords 便于搜索引擎搜索
+		-主体<body></body> 页面内容
+			 -bgcolor: red/#FF0000
+2.HTML常用标签
+	 -<div></div>
+	 	-容器，和css一起使用，网页布局的主要方法
+	 -<a href="url/本地路径">显示名称</a>
+	 -<img src="url/本地路径"  width=""  height=""/>
+	 -<input type="" value="" size="" placeholder="">
+	 	- type的值可以是：text,button,submit
+	 -<table></table>
+	 	-<th>：表头标签
+		-<tr>：行标签
+		-<td>：列标签
+	 -<form method="" action="" ></form>
+	 	-method可以是get(default),post。
+3.CSS
+	 -Cascading Style Sheets 
+	 -定义HTML的显示样式和页面布局
+	 -分离了HTML标签和表现形式，易于代码维护
+	 -CSS与HTML结合的方式（按优先级排列）
+	 	 -内联样式
+		 -内部样式表
+		 -外部样式表
+		 -浏览器默认设置
+	 -代码结构（包含3个元素）
+	 	 -HTML元素选择器（含3种+派生）
+		 -CSS元素
+		 -CSS元素值
+	 -盒模型
+	 	 -定义了元素的content、border、padding、margin
+		 	-padding是border向内扩展~
+			-margin是border向外扩展~
+	 -定位机制
+	 	 -一切皆为“框”（块框&行内框）
+		 	-块框：div,h,p
+			-行内框：span,strong
+		 -三种定位机制
+		 	 -普通流
+			 	 -(同“postion:static”)
+			 -float
+			 	 -与普通流，机制不同，相互独立
+				 -取值：left,right
+			 -position
+			 	 -static
+				 -relative
+				 -absolute
+				 -fixed
+		 -溢出处理
+			 -使用css元素：overflow.其值有4种：
+		 		 -visible 默认值
+				 -scroll 设置滚动条
+				 -hidden 修剪内容，多余不可见
+				 -auto 自动显示滚动条
+
+	 
